@@ -19,7 +19,7 @@ Then follow the guidence for the third party aligner.
 
 Note that, some aligners usually convert subword alignment results to word alignment results,but you shouldn't convert subword alignment to word alignment.  
 
-Here we offer an subword alignment result which is used to finetune the mbert(https://huggingface.co/bert-base-multilingual-cased) 
+Here we offer an subword alignment result coming from Maskalign[https://github.com/THUNLP-MT/Mask-Align] which is used to finetune the mbert(https://huggingface.co/bert-base-multilingual-cased) 
 
 ### Finetune the pretrained model
 
