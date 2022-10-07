@@ -9,7 +9,7 @@ This work offer an simple and effective way to boost the existed aligner.With th
 ### Data Preparation
 To get the data used in our paper, you can follow the instructions in [https://github.com/lilt/alignment-scripts](https://github.com/lilt/alignment-scripts).
 
-### Get Subword-level Supervised Alignment From Other Aligner
+### Get Adapted Subword-level Supervised Alignment From Other Aligner
 
 In our preliminary experiment,to better use the alignment from the third party aligner,you have to get the alignment in the subword level.You need to tokenizer the words into subwords which is used by the pretrained model to be finetuned.
 
