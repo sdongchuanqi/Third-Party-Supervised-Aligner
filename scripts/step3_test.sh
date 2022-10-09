@@ -34,7 +34,6 @@ CUDA_VISIBLE_DEVICES=$num python /data4/cqdong/my_align/src/align_extract.py \
     --per_device_eval_batch_size 16 \
     --model_type bert \
     --do_eval 
-#   --checkpoint_dir /data4/cqdong/my_align/checkpoints_zh_en/model_4.pt
     
 # test AER
 python /data4/cqdong/Mask-Align/alignment-scripts/scripts/aer.py\
