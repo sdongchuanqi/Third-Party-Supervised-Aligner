@@ -19,9 +19,13 @@ Then follow the guidence for the third party aligner.
 
 Note that, some aligners usually convert subword alignment results to word alignment results,but you shouldn't convert subword alignment to word alignment.  
 
-Here we offer an subword alignment result coming from Maskalign[https://github.com/THUNLP-MT/Mask-Align] which is used to finetune the mbert(https://huggingface.co/bert-base-multilingual-cased) 
+Here we offer an subword alignment result[https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/tree/main/8w] coming from Maskalign[https://github.com/THUNLP-MT/Mask-Align] which is used to finetune the mbert(https://huggingface.co/bert-base-multilingual-cased). We extract the first 80000 texts from the Chinese English ldc corpus as examples of fine-tuning training。
 
 ### Finetune the pretrained model
 
+Fine tune the pretrained model(mbert) by run the [https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step2_train_40k2.sh].
 
- 
+
+### Eval the result 
+After fine tune the pretrained-model, then you can evaluate model performance by run the [https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step3_test.sh].
+
