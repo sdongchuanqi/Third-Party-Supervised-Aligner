@@ -1,0 +1,10 @@
+In this version, we added 39,815 new mannually aligned Chinese-English sentence pairs. Besides the 900 sentence pairs in V1, the corpus contains 40,715 sentence pairs now. Note that the first 900 sentence pairs of the corpus correspond to the devset and testset in V1.
+
+
+In the "alignment" file, a link "1:2/1" means that the first Chinese word is aligned to the second English word. The last "1" indicates that the annotators are confident about this link. Otherwise, they will use "1:2/0" to denote possible links. Note that the subscript starts from 1 instead of 0.
+
+History:
+
+2018/10/13 39,815 mannually aligned Chinese-English sentence pairs added.
+2014/12/13 Re-annotated by Xiaomin Xue (minxiao6230@126.com)
+2014/09/30 Initial annotation by Yang Liu (liuyang2011@tsinghua.edu.cn)

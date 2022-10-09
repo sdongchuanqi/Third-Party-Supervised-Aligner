@@ -1,0 +1,16 @@
+devset  // development set
+	* dev.f: Chinese sentences 
+	* dev.e: English sentences
+	* dev.wa: manual alignments
+
+tstset  // test set
+	* tst.f: Chinese sentences
+	* tst.e: English sentences
+	* tst.wa: maunal alignments
+
+In the *.wa files, a link "1:2/1" means that the first Chinese word is aligned to the second English word. The last "1" indicates that the annotators are confident about this link. Otherwise, they will use "1:2/0" to denote possible links. Note that the subscript starts from 1 instead of 0.
+
+History:
+
+2014/12/13 Re-annotated by Xiaomin Xue (minxiao6230@126.com)
+2014/09/30 Initial annotation by Yang Liu (liuyang2011@tsinghua.edu.cn)
