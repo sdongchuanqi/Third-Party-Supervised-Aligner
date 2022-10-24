@@ -23,7 +23,7 @@ Here we offer an subword alignment **[result](https://github.com/sdongchuanqi/Th
 
 ### Finetune the pretrained model
 
-Fine tune the pretrained model(mbert) by run this **[script](ttps://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step2_train_40k2.sh)**.
+Fine tune the pretrained model(mbert) by run this **[script](https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step2_train_40k2.sh)**.
 
 
 ### Eval the result 
