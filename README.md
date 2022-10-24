@@ -7,7 +7,7 @@ This work offer an simple and effective way to boost the existed aligner.With th
 
 ## Usage
 ### Data Preparation
-To get the data used in our paper, you can follow the instructions in [https://github.com/lilt/alignment-scripts](https://github.com/lilt/alignment-scripts).
+To get the data used in our paper, you can follow the instructions in **[here](https://github.com/lilt/alignment-scripts)**.
 
 ### Get Adapted Subword-level Supervised Alignment From Other Aligner
 
@@ -19,13 +19,13 @@ Then follow the guidence for the third party aligner.
 
 Note that, some aligners usually convert subword alignment results to word alignment results,but you shouldn't convert subword alignment to word alignment.  
 
-Here we offer an subword alignment result[https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/tree/main/8w] coming from Maskalign[https://github.com/THUNLP-MT/Mask-Align] which is used to finetune the mbert(https://huggingface.co/bert-base-multilingual-cased). We extract the first 80000 texts from the Chinese English ldc corpus as examples of fine-tuning training set.
+Here we offer an subword alignment **[result](https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/tree/main/8w)** coming from **[Maskalign](https://github.com/THUNLP-MT/Mask-Align)** which is used to finetune the **[mbert](https://huggingface.co/bert-base-multilingual-cased)**. We extract the first 80000 texts from the Chinese English ldc corpus as examples of fine-tuning training set.
 
 ### Finetune the pretrained model
 
-Fine tune the pretrained model(mbert) by run the [https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step2_train_40k2.sh].
+Fine tune the pretrained model(mbert) by run this **[script](ttps://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step2_train_40k2.sh)**.
 
 
 ### Eval the result 
-After fine tune the pretrained-model, then you can evaluate model performance by run the [https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step3_test.sh].
+After fine tune the pretrained-model, then you can evaluate model performance by run this **[script](https://github.com/sdongchuanqi/Third-Party-Supervised-Aligner/blob/main/scripts/step3_test.sh)**.
 
